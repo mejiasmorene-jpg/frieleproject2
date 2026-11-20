@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friale Bonghanoy | Student Portfolio</title>
+
+    <meta name="description" content="Friale Bonghanoy's first-year IT portfolio, projects, skills, and learning journey.">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: radial-gradient(
+                ellipse at top,
+                rgba(109, 40, 217, 0.12),
+                transparent 48%
+            );
+            background-attachment: fixed;
+        }
+
+        ::selection {
+            background: #6d28d9;
+            color: white;
+        }
+
+        a:focus-visible {
+            outline: 3px solid #a78bfa;
+            outline-offset: 5px;
+        }
+
+        .skip-link {
+            position: fixed;
+            z-index: 60;
+            top: -80px;
+            left: 20px;
+            padding: 10px 16px;
+            background-color: #4c1d95;
+            color: white;
+        }
+
+        .skip-link:focus {
+            top: 10px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            a {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-neutral-950 pt-36 font-serif leading-relaxed text-slate-100 sm:pt-20">
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HEADER -->
+    <header class="fixed inset-x-0 top-0 z-50 h-36 border-b border-neutral-800 bg-neutral-950/95 backdrop-blur-sm sm:h-20">
+
+        <div class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5">
+
+            <a class="text-xl font-semibold tracking-tight" href="#home">
+                Friale Bonghanoy<span class="text-violet-400">.</span>
+            </a>
+
+            <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+
+                <a class="py-2 text-sm text-slate-300 hover:text-violet-400" href="#home">Home</a>
+
+                <a class="py-2 text-sm text-slate-300 hover:text-violet-400" href="#about">About</a>
+
+                <a class="py-2 text-sm text-slate-300 hover:text-violet-400" href="#skills">Skills</a>
+
+                <a class="py-2 text-sm text-slate-300 hover:text-violet-400" href="#projects">Projects</a>
+
+                <a class="py-2 text-sm text-slate-300 hover:text-violet-400" href="#contact">Contact</a>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+
+        <!-- HOME SECTION -->
+        <section id="home" class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16" aria-label="Introduction">
+
+            <div>
+
+                <p class="mb-5 font-mono text-sm text-violet-400">
+                    BSIT / FIRST YEAR
+                </p>
+
+                <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">
+                    Hello, I'm Friale!
+                    <br>
+                    <span class="text-violet-400">
+                        Ideas Become
+                        <br>
+                        Websites.
+                    </span>
+                </h1>
+
+                <p class="max-w-xl text-lg text-slate-300">
+                    I'm a first-year student who loves technology, creative design, and building useful things online.
+                    This portfolio shows my skills, my projects, and my progress as I keep learning and improving.
+                </p>
+
+                <div class="mt-8 flex flex-wrap items-center gap-6">
+
+                    <a class="rounded bg-violet-600 px-5 py-3 font-semibold text-white transition hover:bg-violet-500" href="#projects">
+                        View my projects
+                    </a>
+
+                    <a class="text-slate-100 underline underline-offset-4 hover:text-violet-400" href="#about">
+                        Learn about me
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- PROFILE PICTURE -->
+            <figure class="mx-auto w-full max-w-sm">
+
+                <img
+                    class="w-full rounded-md border border-neutral-800 bg-neutral-900 object-cover shadow-2xl shadow-violet-950/20"
+                    src="assets/images/face.png"
+                    alt="Profile photo of Friale Bonghanoy"
+                    width="600"
+                    height="600"
+                >
+
+                <figcaption class="mt-3 flex justify-between gap-4 text-xs text-slate-300">
+                    <span>Friale Bonghanoy</span>
+                    <span>First year · BSIT</span>
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="grid gap-12 border-t border-neutral-800 py-16 md:grid-cols-2" aria-labelledby="about-title">
+
+            <div>
+
+                <p class="mb-4 font-mono text-sm text-violet-400">
+                    ABOUT ME
+                </p>
+
+                <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">
+                    Learning how technology works,
+                    <br>
+                    one step at a time.
+                </h2>
+
+                <p class="mb-5 text-slate-300">
+                    My name is Friale Bonghanoy, and I'm a first-year BSIT student at Cordova Public College. I am eager to develop my skills in programming, web development, and problem-solving. As I begin my journey in the IT field, I look forward to gaining knowledge, exploring new opportunities, and growing into a skilled IT professional.
+                </p>
+
+                <p class="mb-5 text-slate-300">
+                    I consider myself a responsible, hardworking, and dedicated individual who believes that learning is a continuous process. Although I am still at the beginning of my journey, I am willing to face challenges, learn from my mistakes, and take every opportunity to grow both personally and academically.
+                </p>
+
+                <p class="text-slate-300">
+                    This portfolio serves as a collection of my skills, activities, projects, and achievements throughout my journey as an IT student. My goal is to continuously improve, gain valuable experience, and become a skilled IT professional in the future.
+                </p>
+
+            </div>
+
+            <div>
+
+                <aside class="rounded-md border border-neutral-800 bg-neutral-900 p-6 shadow-lg shadow-black/20">
+
+                    <p class="mb-4 font-mono text-xs text-violet-400">
+                        MY EDUCATION CHAPTER
+                    </p>
+
+                    <h3 class="mb-3 text-xl font-semibold">
+                        BS Information Technology
+                    </h3>
+
+                    <p class="mb-4 text-slate-300">
+                        Cordova Public College
+                        <br>
+                        First year · 2026 — Present
+                    </p>
+
+                    <p class="text-sm text-slate-300">
+                        Studying programming, web development, and the fundamentals of information technology.
+                    </p>
+
+                </aside>
+
+                <p class="mt-6 text-slate-300">
+                    This year, my goal is to make more websites, strengthen my graphic design, and grow into a confident developer and designer.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="py-16" aria-labelledby="skills-title">
+
+            <p class="mb-4 font-mono text-sm text-violet-400">
+                WHAT I'M LEARNING
+            </p>
+
+            <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">
+                Skills I'm developing.
+            </h2>
+
+            <div class="grid gap-x-12 md:grid-cols-2">
+
+                <article class="border-t border-neutral-800 py-7">
+
+                    <p class="mb-2 font-mono text-xs text-violet-400">
+                        01 / WEB BASICS
+                    </p>
+
+                    <h3 class="mb-3 text-2xl font-semibold">
+                        HTML5
+                    </h3>
+
+                    <p class="text-slate-300">
+                        HTML is how I lay out the structure of a webpage, including headings, links, images, and forms.
+                    </p>
+
+                </article>
+
+
+                <article class="border-t border-neutral-800 py-7">
+
+                    <p class="mb-2 font-mono text-xs text-violet-400">
+                        02 / STYLING
+                    </p>
+
+                    <h3 class="mb-3 text-2xl font-semibold">
+                        CSS3
+                    </h3>
+
+                    <p class="text-slate-300">
+                        I add style with CSS and use Flexbox and grid so my layouts look organized on laptops and phones alike.
+                    </p>
+
+                </article>
+
+
+                <article class="border-t border-neutral-800 py-7">
+
+                    <p class="mb-2 font-mono text-xs text-violet-400">
+                        03 / FAST STYLING
+                    </p>
+
+                    <h3 class="mb-3 text-2xl font-semibold">
+                        Tailwind CSS
+                    </h3>
+
+                    <p class="text-slate-300">
+                        Utility classes let me set colors, spacing, and responsive layouts in less time while keeping my code clear.
+                    </p>
+
+                </article>
+
+
+                <article class="border-t border-neutral-800 py-7">
+
+                    <p class="mb-2 font-mono text-xs text-violet-400">
+                        04 / VISUAL DESIGN
+                    </p>
+
+                    <h3 class="mb-3 text-2xl font-semibold">
+                        Programming Basics
+                    </h3>
+
+                    <p class="text-slate-300">
+                        I like designing layouts, picking colors, and pairing fonts so that every page feels neat and easy to read.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="py-16" aria-labelledby="projects-title">
+
+            <div class="mb-10">
+
+                <p class="mb-4 font-mono text-sm text-violet-400">
+                    MY PROJECTS
+                </p>
+
+                <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">
+                    What I've built so far.
+                </h2>
+
+                <p class="mt-4 max-w-2xl text-slate-300">
+                    These are some of my academic projects as a first-year BSIT student. Each project represents my learning experience, creativity, and progress in web development.
+                </p>
+
+            </div>
+
+            <div class="space-y-16">
+
+
+                <!-- PROJECT 1: PERSONAL WEBPAGE -->
+                <article class="grid items-center gap-8 border-t border-neutral-800 pt-8 md:grid-cols-2">
+
+                    <img
+                        class="w-full rounded-md border border-neutral-800 shadow-lg shadow-black/20"
+                        src="assets/images/accct1.png"
+                        alt="My first personal webpage created using HTML"
+                        width="800"
+                        height="500"
+                        loading="lazy"
+                    >
+
+                    <div>
+
+                        <p class="mb-3 font-mono text-xs text-violet-400">
+                            01 / HTML
+                        </p>
+
+                        <h3 class="mb-4 text-3xl font-semibold tracking-tight">
+                            My First Personal Webpage
+                        </h3>
+
+                        <p class="mb-5 text-slate-300">
+                            This is my first webpage project created using HTML. It introduces myself through sections such as About Me and My Interests. Through this activity, I learned how to use basic HTML elements, including headings and paragraphs, to organize and present information on a webpage. This project helped me understand the fundamentals of web development.
+                        </p>
+
+                        <a
+                            class="text-sm text-violet-400 underline underline-offset-4 hover:text-violet-300"
+                            href="assets/images/accct1.png"
+                            target="_blank"
+                        >
+                            View image preview →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2: COMPUTER REPAIR SERVICE -->
+                <article class="grid items-center gap-8 border-t border-neutral-800 pt-8 md:grid-cols-2">
+
+                    <img
+                        class="w-full rounded-md border border-neutral-800 shadow-lg shadow-black/20"
+                        src="assets/images/accct2.png"
+                        alt="Computer Repair Service website project"
+                        width="800"
+                        height="500"
+                        loading="lazy"
+                    >
+
+                    <div>
+
+                        <p class="mb-3 font-mono text-xs text-violet-400">
+                            02 / HTML & CSS
+                        </p>
+
+                        <h3 class="mb-4 text-3xl font-semibold tracking-tight">
+                            Computer Repair Service Website
+                        </h3>
+
+                        <p class="mb-5 text-slate-300">
+                            This project is a website designed for a computer and electronic repair service. It features a navigation menu, an introduction to the repair service, a laptop illustration, and a repair request button. Through this activity, I practiced combining HTML and CSS to create a structured and visually organized website. It helped me improve my understanding of webpage layouts, styling, and user-friendly design.
+                        </p>
+
+                        <a
+                            class="text-sm text-violet-400 underline underline-offset-4 hover:text-violet-300"
+                            href="assets/images/accct2.png"
+                            target="_blank"
+                        >
+                            View image preview →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="grid items-start gap-12 border-t border-neutral-800 py-16 md:grid-cols-2" aria-label="Contact">
+
+            <div>
+
+                <p class="mb-4 font-mono text-sm text-violet-400">
+                    CONTACT
+                </p>
+
+                <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">
+                    Let's get in touch
+                    <br>
+                    and make something!
+                </h2>
+
+                <p class="max-w-lg text-slate-300">
+                    If you have a project idea, a design to show me, or a question about web development, I'd be glad to hear from you. Email me and I'll reply soon.
+                </p>
+
+            </div>
+
+
+            <div class="rounded-md border border-neutral-800 bg-neutral-900 p-6 shadow-lg shadow-black/20 md:p-8">
+
+                <p class="mb-4 text-sm text-slate-300">
+                    You can email me at
+                </p>
+
+                <a
+                    class="break-words text-xl font-semibold text-violet-400 underline underline-offset-4 hover:text-violet-300"
+                    href="mailto:frialebonghanoy12@gmail.com"
+                >
+                    frialebonghanoy12@gmail.com
+                </a>
+
+                <div class="mt-8 border-t border-neutral-800 pt-5 text-sm text-slate-300">
+
+                    <p>Cebu City, Philippines</p>
+
+                    <p class="mt-2">
+                        Cordova Public College · BSIT
+                    </p>
+
+                    <p class="mt-4">
+                        Always open to teamwork and new ideas.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-neutral-800">
+
+        <div class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-slate-300">
+
+            <p>© 2026 Friale Bonghanoy</p>
+
+            <p>BSIT, first year · Cordova, Cebu City</p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
